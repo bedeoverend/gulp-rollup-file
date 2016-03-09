@@ -1,28 +1,26 @@
 {
   "name": "gulp-rollup-inline",
   "version": "0.1.0",
-  "description": "Helper gulp plugin to quickly use rollup with gulp-process-inline",
+  "description": "Gulp wrapper around rollup-plugin-file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bedeoverend/gulp-rollup-inline.git"
+    "url": "git+https://github.com/simplaio/gulp-rollup-inline.git"
   },
   "keywords": [
     "gulp",
     "rollup",
-    "inline",
-    "html",
-    "js"
+    "file"
   ],
-  "author": "Bede Overend",
+  "author": "Simpla <admin@simpla.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bedeoverend/gulp-rollup-inline/issues"
+    "url": "https://github.com/simplaio/gulp-rollup-inline/issues"
   },
-  "homepage": "https://github.com/bedeoverend/gulp-rollup-inline#readme",
+  "homepage": "https://github.com/simplaio/gulp-rollup-inline#readme",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "rollup": "^0.25.4",
