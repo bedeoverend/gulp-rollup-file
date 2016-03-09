@@ -1,4 +1,4 @@
-# Gulp Rollup Inline
+# Gulp Rollup File
 [![][npm-badge]][npm-url] [![][travis-badge]][travis-url] [![][npmdeps-badge]][npmdeps-url] [![][npmdevdeps-badge]][npmdevdeps-url]
 
 Gulp wrapper around [`rollup-plugin-file`][rollup-plugin-file], to allow passing a file (or vinyl) entry point to Rollup rather than a string.
@@ -6,7 +6,7 @@ Gulp wrapper around [`rollup-plugin-file`][rollup-plugin-file], to allow passing
 ## Installation
 
 ```shell
-npm install --save-dev gulp-rollup-inline
+npm install --save-dev gulp-rollup-file
 ```
 
 ## Usage
@@ -34,14 +34,13 @@ gulp.task('inline-rollup', () => {
 MIT © [Simpla](https://simpla.io)
 
 
-[npm-badge]: https://img.shields.io/npm/v/rollup-plugin-file.svg
-[npm-url]: https://npmjs.org/package/rollup-plugin-file
-[travis-badge]: https://img.shields.io/travis/simplaio/rollup-plugin-file.svg
-[travis-url]: https://travis-ci.org/simplaio/rollup-plugin-file
-[npmdeps-badge]: https://img.shields.io/david/simplaio/rollup-plugin-file.svg
-[npmdeps-url]: https://david-dm.org/simplaio/rollup-plugin-file
-[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/rollup-plugin-file.svg?theme=shields.io
-[npmdevdeps-url]: https://david-dm.org/simplaio/rollup-plugin-file#info=devDependencies
-[gulp]: http://gulpjs.com/
-[gulp-rollup-file]: https://github.com/simplaio/gulp-rollup-file
+[npm-badge]: https://img.shields.io/npm/v/gulp-rollup-file.svg
+[npm-url]: https://npmjs.org/package/gulp-rollup-file
+[travis-badge]: https://img.shields.io/travis/simplaio/gulp-rollup-file.svg
+[travis-url]: https://travis-ci.org/simplaio/gulp-rollup-file
+[npmdeps-badge]: https://img.shields.io/david/simplaio/gulp-rollup-file.svg
+[npmdeps-url]: https://david-dm.org/simplaio/gulp-rollup-file
+[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/gulp-rollup-file.svg?theme=shields.io
+[npmdevdeps-url]: https://david-dm.org/simplaio/gulp-rollup-file#info=devDependencies
+[rollup-plugin-file]: https://github.com/simplaio/rollup-plugin-file
 [gulp-process-inline]: https://github.com/simplaio/gulp-process-inline

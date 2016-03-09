@@ -1,5 +1,5 @@
 {
-  "name": "gulp-rollup-inline",
+  "name": "gulp-rollup-file",
   "version": "0.1.0",
   "description": "Gulp wrapper around rollup-plugin-file",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simplaio/gulp-rollup-inline.git"
+    "url": "git+https://github.com/simplaio/gulp-rollup-file.git"
   },
   "keywords": [
     "gulp",
@@ -18,9 +18,9 @@
   "author": "Simpla <admin@simpla.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simplaio/gulp-rollup-inline/issues"
+    "url": "https://github.com/simplaio/gulp-rollup-file/issues"
   },
-  "homepage": "https://github.com/simplaio/gulp-rollup-inline#readme",
+  "homepage": "https://github.com/simplaio/gulp-rollup-file",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "rollup": "^0.25.4",
