@@ -14,9 +14,12 @@ module.exports = function(options) {
   options.plugins.unshift(rollupFile());
 
   rollup = options.rollup || require('rollup').rollup;
+  delete options.rollup;
 
   return through(function(file, enc, done) {
     options.entry = file;
+    options.entry.slice = (...args) => (file.history[0] || '').slice(...args);
+
     rollup(options)
       .then(function(bundle) {
         file.contents = new Buffer(bundle.generate(options).code);
