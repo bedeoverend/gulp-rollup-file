@@ -17,8 +17,17 @@ module.exports = function(options) {
   delete options.rollup;
 
   return through(function(file, enc, done) {
+    var name = (file.history[0] || '');
+
+    Object.getOwnPropertyNames(String.prototype)
+      .forEach(key => {
+        var value = name[key];
+        if (typeof value === 'function' && typeof file[key] === 'undefined') {
+          file[key] = value.bind(name);
+        }
+      });
+
     options.entry = file;
-    options.entry.slice = (...args) => (file.history[0] || '').slice(...args);
 
     rollup(options)
       .then(function(bundle) {
