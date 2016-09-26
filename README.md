@@ -14,7 +14,7 @@ This is mainly designed to be used alongside [`gulp-process-inline`][gulp-proces
 
 ```js
 import gulp from 'gulp';
-import rollup from 'gulp-rollup-inline';
+import rollup from 'gulp-rollup-file';
 import processInline from 'gulp-process-inline';
 
 gulp.task('inline-rollup', () => {
@@ -31,16 +31,16 @@ gulp.task('inline-rollup', () => {
 
 ## License
 
-MIT © [Simpla](https://simpla.io)
+MIT © Bede Overend
 
 
 [npm-badge]: https://img.shields.io/npm/v/gulp-rollup-file.svg
 [npm-url]: https://npmjs.org/package/gulp-rollup-file
-[travis-badge]: https://img.shields.io/travis/simplaio/gulp-rollup-file.svg
-[travis-url]: https://travis-ci.org/simplaio/gulp-rollup-file
-[npmdeps-badge]: https://img.shields.io/david/simplaio/gulp-rollup-file.svg
-[npmdeps-url]: https://david-dm.org/simplaio/gulp-rollup-file
-[npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/gulp-rollup-file.svg?theme=shields.io
-[npmdevdeps-url]: https://david-dm.org/simplaio/gulp-rollup-file#info=devDependencies
-[rollup-plugin-file]: https://github.com/simplaio/rollup-plugin-file
-[gulp-process-inline]: https://github.com/simplaio/gulp-process-inline
+[travis-badge]: https://img.shields.io/travis/bedeoverend/gulp-rollup-file.svg
+[travis-url]: https://travis-ci.org/bedeoverend/gulp-rollup-file
+[npmdeps-badge]: https://img.shields.io/david/bedeoverend/gulp-rollup-file.svg
+[npmdeps-url]: https://david-dm.org/bedeoverend/gulp-rollup-file
+[npmdevdeps-badge]: https://img.shields.io/david/dev/bedeoverend/gulp-rollup-file.svg?theme=shields.io
+[npmdevdeps-url]: https://david-dm.org/bedeoverend/gulp-rollup-file#info=devDependencies
+[rollup-plugin-file]: https://github.com/bedeoverend/rollup-plugin-file
+[gulp-process-inline]: https://github.com/bedeoverend/gulp-process-inline
